@@ -1,0 +1,56 @@
+body {
+  background: #919aa5;
+}
+
+div.content {
+  border-radius: 15px;
+  background: lightslategray;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#currency, #calculation {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 20px auto 0;
+  font-size: 20px;
+}
+
+td {
+  /*border: 1px solid black;*/
+  text-align: center;
+  min-width: 50px;
+  padding: 8px;
+}
+
+input, button, select {
+  background: #919AA5;
+  font-size: 16px;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+option{
+  text-align: center;
+}
+
+#result {
+  margin: 0 auto 15px;
+  height: 30px;
+  background: #919AA5;
+  width: 300px;
+  padding: 5px 0 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}

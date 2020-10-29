@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Обмін валюти</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./cssreset.css">
+</head>
+<body>
+<div class="content">
+	<h2 class="header">КУРС ВАЛЮТ</h2>
+	<div class="currency-exchange">
+		<table id="currency">
+			<tr>
+				<td></td>
+				<td>покупка</td>
+				<td>продаж</td>
+			</tr>
+			<tr>
+				<td>USD</td>
+				<td id="usdbuy"></td>
+				<td id="usdsale"></td>
+			</tr>
+			<tr>
+				<td>EURO</td>
+				<td id="eurobuy"></td>
+				<td id="eurosale"></td>
+			</tr>
+			<tr>
+				<td>PLN</td>
+				<td id="plnbuy"></td>
+				<td id="plnsale"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="calculation-function">
+		<table id="calculation">
+			<tr>
+				<td colspan="2">Розрахунок: покупки / продажу</td>
+			</tr>
+			<tr>
+				<td>
+					<select id="user-select">
+						<option>USD</option>
+						<option>EURO</option>
+						<option>PLN</option>
+					</select>
+				</td>
+				<td><input type="text" id="user-input"></td>
+			</tr>
+			<tr>
+				<td>
+					<button id="buy">Купити</button>
+				</td>
+				<td>
+					<button id="sele">Продати</button>
+				</td>
+			<tr>
+				<td colspan="2">
+					<div id="result"></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<a href="https://github.com/urbole/currency_exchange_2.git">myGit</a>
+<script src="./js/main.js"></script>
+</body>
+</html>
