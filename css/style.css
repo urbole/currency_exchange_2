@@ -37,10 +37,6 @@ input, button, select {
   padding: 0;
 }
 
-option{
-  text-align: center;
-}
-
 #result {
   margin: 0 auto 15px;
   height: 30px;
